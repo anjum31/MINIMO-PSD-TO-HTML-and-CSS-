@@ -1,0 +1,257 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    overflow: hidden;
+    width:90%;
+    margin:auto;
+    margin-top: 30px;
+}
+.logo{
+    width:20%;
+    float:left;
+}
+.logo img{
+
+}
+nav{
+    width:50%;
+    float:right;
+}
+nav ul  {
+    list-style:none;
+    overflow:hidden;
+    float:right;  
+}
+nav ul li {
+   float:left;   
+}
+nav ul li a{
+    text-decoration:none;
+    text-transform:uppercase;
+    margin-left: 30px;
+    color:#626262;
+}
+.banner{
+    width:90%;
+    margin:auto;
+    margin-top: 30px;
+}
+.banner img{
+    width:100%;
+}
+.photodiary{
+    width:80%;
+    margin:50px auto;
+}
+.photodiary h3{  
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+.photodiary h1{
+    font-size:40px ;
+    color: #626262;
+    margin:30px 0;
+}
+.photodiary p{
+    color: #626262;
+    margin-bottom: 30px;
+    text-align: justify;   
+}
+.lifestyle{
+    width:80%;
+    margin: 50px auto;
+    overflow: hidden;
+}
+.lifestyle1{
+   float:left;
+   width: 47%;
+}
+.lifestyle1 img{ 
+     width:100%;
+}
+.lifestyle1 h3{  
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 20px; 
+ }
+ .lifestyle1 h1{
+    font-size:35px ;
+    color: #626262;
+    margin:15px 0;  
+ }
+ .lifestyle1 p{
+    color: #626262;
+    margin-bottom: 30px;
+    text-align: justify;   
+ }
+.lifestyle2{
+    float:right;
+    width: 47%;
+}
+.lifestyle2 img{   
+    width:100%;     
+}
+.lifestyle2 h3{
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 20px;   
+ }
+ .lifestyle2 h1{  
+    font-size:35px ;
+    color: #626262;
+    margin:15px 0;
+ }
+ .lifestyle2 p{
+    color: #626262;
+    margin-bottom: 30px;
+    text-align: justify;    
+ }
+ .anotherlifestyle{
+    width:80%;
+    margin: 50px auto;
+    overflow: hidden;
+}
+.lifestyle3{
+   float:left;
+   width: 47%;
+}
+.lifestyle3 img{ 
+     width:100%;
+}
+.lifestyle3 h3{  
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 20px; 
+ }
+ .lifestyle3 h1{
+    font-size:35px ;
+    color: #626262;
+    margin:15px 0;  
+ }
+ .lifestyle3 p{
+    color: #626262;
+    margin-bottom: 30px;
+    text-align: justify;   
+ }
+ .lifestyle4{
+    float:right;
+    width: 47%;
+}
+.lifestyle4 img{   
+    width:100%;     
+}
+.lifestyle4 h3{
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 20px;   
+ }
+ .lifestyle4 h1{  
+    font-size:35px ;
+    color: #626262;
+    margin:15px 0;
+ }
+ .lifestyle4 p{
+    color: #626262;
+    margin-bottom: 30px;
+    text-align: justify;    
+ }
+ .newsletter{
+    background-color: #f0f0f0;
+    padding: 80px;
+    margin-bottom: 100px;
+ }
+ .signup{
+    width: 28%;
+    margin:auto;
+    position: relative;
+ }
+ .signup h1{ 
+    color:#333333;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+.signup input{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid;
+    margin-top: 60px;
+    padding-bottom:5px ;
+}
+.signup input::placeholder{
+    color:#626262;
+    margin-bottom:10px;
+}
+.signup input:focus{
+   outline: none;
+}
+.icon{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+.loadmore{
+    text-align: center;
+    padding: 150px;
+ }
+.loadmore button{     
+    padding: 20px 30px;    
+    border: transparent;   
+    font-size: 18px;    
+    background: transparent;    
+    border: 1px solid #626262;    
+    cursor: pointer;
+}
+footer{
+    background-color: #f0f0f0;
+}
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+}
+.terms{
+    margin:10px 50px;
+   
+}
+.terms ul {
+    display: flex;
+    justify-content: space-between; 
+    list-style: none;
+}
+.terms ul li {
+     padding: 20px 10px;
+} 
+.terms ul li a{  
+    text-decoration: none;
+    color:#626262;
+}
+.social_icon{
+    margin:10px 50px;
+}
+.social_icon ul {
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+}
+.social_icon ul li {
+    padding: 20px 10px;
+}
+.social_icon ul li a{  
+    text-decoration: none;
+    color:#626262;
+
+}
